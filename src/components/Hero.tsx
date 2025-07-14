@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChevronDown, Download } from 'lucide-react';
+import im1 from './dp/im1.jpg';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -39,7 +40,7 @@ const Hero = () => {
           <div className="relative inline-block">
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
               <img
-                src="/dp/im1.jpg"
+                src={im1}
                 alt="Rayan Alam"
                 className="w-full h-full object-cover"
               />

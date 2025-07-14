@@ -1,6 +1,6 @@
 import React from 'react';
 import { Brain, Cpu, Zap, Target } from 'lucide-react';
-
+import im2 from './dp/im2.jpg';
 const About = () => {
   const interests = [
     {
@@ -41,7 +41,7 @@ const About = () => {
             <div className="flex-shrink-0">
               <div className="w-64 h-64 rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/dp/im2.jpg"
+                  src={im2}
                   alt="Rayan Alam"
                   className="w-full h-full object-cover object-top"
                 />
